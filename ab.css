@@ -1,0 +1,163 @@
+body{
+    background-image: url("https://ctl.s6img.com/society6/img/OhoSOhR-e4fh_FNKG26kBENZqpE/w_700/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,fy_-971,iw_4600,ih_3942/s6-original-art-uploads/society6/uploads/misc/f30a449b8c9941a0b92d7b8d9b22fb90/~~/cat-paw-prints-in-blue-mugs.jpg");
+    
+}
+.nav{
+    color:lightblue;
+}
+.container {
+    display: flex; /* or inline-flex */
+}   
+h1{
+    background-color: lavender;
+    border-radius: 40%;
+    padding: 20px;
+}
+h2{
+    background-color: lavender;
+    border-radius: 40%;
+    padding: 20px;
+}
+p{
+    background-color: lavender;
+    
+}
+.button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.button1 {
+background-color: white; 
+color: black; 
+border: 2px solid skyblue;
+}
+
+.button1:hover {
+background-color: skyblue;
+color: white;
+}
+
+.button2 {
+background-color: white; 
+color: black; 
+border: 2px solid skyblue;
+}
+
+.button2:hover {
+background-color: skyblue;
+color: white;
+}
+
+.button3 {
+background-color: white; 
+color: black; 
+border: 2px solid skyblue;
+}
+
+.button3:hover {
+background-color: skyblue;
+color: white;
+}
+
+.button4 {
+background-color: white;
+color: white;
+border: 2px solid skyblue;
+}
+
+.button4:hover {background-color: skyblue;}
+
+.button5 {
+background-color: white;
+color: black;
+border: 2px solid skyblue;
+}
+
+.button5:hover {
+background-color: skyblue;
+color: white;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
